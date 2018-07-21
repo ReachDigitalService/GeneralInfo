@@ -26,3 +26,27 @@ All general Information will be available here
 9. Explain React.js
 10. Explain Mongo DB
 11. Explain Reach-MMS
+
+
+## check this in stack edit link
+```mermaid
+graph LR
+A[Quotation] --> B{if Client Agrees} 
+B-- Yes --> C[Sales Order]
+
+A1[Quotation1] --> B1{if Client Agrees} 
+B1-- Yes --> C1[Sales Order1]
+
+A2[Quotation1] --> B2{if Client Agrees} 
+B2-- Yes --> C2[Sales Order2]
+
+C --> D[Bundler]
+C1-->D
+C2-->D
+
+D-->E1[PO1-Supplier1]
+D-->E2[PO2-Supplier2]
+
+
+
+```
